@@ -1,0 +1,13 @@
+import './App.css';
+import MyMap from './MyMap';
+import MyForm from './MyForm';
+function App() {
+  return (
+    <div className="App">
+     <MyMap/>
+     <MyForm/>
+    </div>
+  );
+}
+
+export default App;
